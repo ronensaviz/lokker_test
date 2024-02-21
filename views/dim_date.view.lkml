@@ -96,8 +96,6 @@ view: dim_date {
     sql: ${TABLE}.year ;;
   }
 
-
-
   dimension: state_flag_image {
     type: string
     sql: ${year} ;;
