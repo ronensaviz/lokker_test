@@ -100,13 +100,13 @@ view: dim_date {
     type: string
     sql: ${year} ;;
     html:
-              {% if year._value == "2024" %}
+              {% if year._value == 2024 %}
               <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" height="170" width="255">
-              {% elsif year._value == "2025" %}
+              {% elsif year._value == 2025 %}
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/1200px-Flag_of_New_York.svg.png" height="170" width="255">
-              {% elsif year._value == "2026" %}
+              {% elsif year._value == 2026 %}
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/255px-Flag_of_Colorado.svg.png" height="170" width="255">
-              {% elsif year._value == "2027"%}
+              {% elsif year._value == 2027 %}
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/1200px-Flag_of_Illinois.svg.png" height="170" width="255">
               {% else %}
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png" height="170" width="170">
